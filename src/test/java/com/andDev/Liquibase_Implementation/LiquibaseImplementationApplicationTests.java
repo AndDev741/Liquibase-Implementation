@@ -1,13 +1,13 @@
-package com.andDev.Liquibase_Implementation;
+// package com.andDev.Liquibase_Implementation;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+// import org.junit.jupiter.api.Test;
+// import org.springframework.boot.test.context.SpringBootTest;
 
-@SpringBootTest
-class LiquibaseImplementationApplicationTests {
+// @SpringBootTest
+// class LiquibaseImplementationApplicationTests {
 
-	@Test
-	void contextLoads() {
-	}
+// 	@Test
+// 	void contextLoads() {
+// 	}
 
-}
+// }

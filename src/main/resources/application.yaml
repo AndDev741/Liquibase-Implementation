@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: Liquibase-Implementation
+  datasource:
+    url: jdbc:postgresql://localhost:5432/liquibase_demo
+    username: ${DB_USER}
+    password: ${DB_PASS}
+  
+  jpa:
+    hibernate:
+      ddl-auto: none
+    show-sql: true
+
+  liquibase:
+    change-log: classpath:db/changelog/db.changelog-master.yaml
+    enabled: true
