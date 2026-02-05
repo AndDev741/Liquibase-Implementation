@@ -1,7 +1,5 @@
 databaseChangeLog:
-  - include:
-      file: db/changelog/001-init-schema.yaml
-  - include:
-      file: db/changelog/002-add-user-status.yaml
-  - include:
-      file: db/changelog/003-add-email-index.yaml
+  - includeAll:
+      file: db/changelog/schemas
+  - includeAll:
+      file: db/changelog/indexes
