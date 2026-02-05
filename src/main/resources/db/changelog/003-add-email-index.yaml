@@ -1,0 +1,14 @@
+databaseChangeLog:
+  - changeSet:
+      id: 003-create-email-index
+      author: andre
+      changes:
+        - createIndex:
+            indexName: idx_users_email
+            tableName: users
+            columns:
+              - column:
+                  name: email
+    preConditions:
+      - tableExists:
+          tableName: users
